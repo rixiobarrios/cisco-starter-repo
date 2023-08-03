@@ -2,9 +2,10 @@ import React from 'react';
 
 const Exhibit = () => {
     return (
-        <header>
-            <p>This React App Sextant is running...</p>
-        </header>
+        <div className="Exhibit">
+            <h2 className="ExhibitHeading">Heading: Exhibit Heading</h2>
+            <div className="ExhibitContent">Content: Exhibit Content</div>
+        </div>
     );
 };
 

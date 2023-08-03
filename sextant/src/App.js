@@ -1,10 +1,10 @@
 import Banner from './Banner';
-import './App.css';
 import Exhibit from './Exhibit';
+import './App.css';
 
 function App() {
     return (
-        <div>
+        <div className="App">
             <Banner />
             <Exhibit />
         </div>
